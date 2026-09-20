@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "staqclient",
+  "version": "1.0.0",
+  "name": "Staq Client",
+  "description": "Custom CIS Anarchy Client with Liminar-style HUD",
+  "authors": ["Staq Dev"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.liminar.StaqClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
+
