@@ -16,7 +16,7 @@ public class StaqClient implements ClientModInitializer {
         // Регистрируем клавишу Right Shift для открытия меню
         clickGuiKeyBinding = KeyBindingHelper.registerKeyBinding(new KeyBinding(
                 "key.staqclient.clickgui",
-                InputUtil.Type.KEY_SYM,
+                InputUtil.Type.KEYSYM,
                 GLFW.GLFW_KEY_RIGHT_SHIFT,
                 "category.staqclient.general"
         ));
