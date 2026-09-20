@@ -17,7 +17,7 @@ public class StaqClient implements ClientModInitializer {
         clickGuiKeyBinding = KeyBindingHelper.registerKeyBinding(new KeyBinding(
                 "key.staqclient.clickgui",
                 InputUtil.Type.KEYSYM,
-                GLFW.GLFW_KEY_RIGHT_SHIFT,
+                GLFW.GLFW_KEY_P,
                 "category.staqclient.general"
         ));
 
