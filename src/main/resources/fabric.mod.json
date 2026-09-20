@@ -1,30 +1,29 @@
 {
   "schemaVersion": 1,
   "id": "staqclient",
-  "version": "1.0.0",
+  "version": "${version}",
   "name": "StaqClient",
-  "description": "StaqClient Custom Client Mod",
+  "description": "A client for Minecraft 1.21.4",
   "authors": [
     "MurodinSoms"
   ],
   "contact": {},
   "license": "MIT",
-  "environment": "*",
+  "icon": "assets/staqclient/icon.png",
+  "environment": "client",
   "entrypoints": {
-    "main": [
-      "net.staqclient.StaqClient"
-    ],
     "client": [
-      "net.staqclient.StaqClientClient"
+      "com.staqclient.StaqClient"
     ]
   },
   "mixins": [
-    "staqclient.mixins.json"
+    "modid.mixins.json"
   ],
   "depends": {
-    "fabricloader": ">=0.16.0",
+    "fabricloader": ">=0.15.0",
     "minecraft": "1.21.4",
     "java": ">=21",
     "fabric-api": "*"
   }
 }
+
