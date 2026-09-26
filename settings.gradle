@@ -6,4 +6,4 @@ pluginManagement {
     }
 }
 
-rootProject.name = 'StaqClient'
+rootProject.name = 'NoHourtCam'

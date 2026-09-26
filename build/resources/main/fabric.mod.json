@@ -1,21 +1,30 @@
 {
   "schema_version": 1,
-  "id": "staqclient",
+  "id": "doesclient",
   "version": "1.0.0",
-  "name": "Staq Client",
-  "description": "Custom CIS Anarchy Client with Liminar-style HUD",
-  "authors": ["Staq Dev"],
-  "contact": {},
+  "name": "DoesClient",
+  "description": "Custom Minecraft client with HUD and GUI menu in style of System DLC.",
+  "authors": [
+    "DoesClient Developer"
+  ],
+  "contact": {
+    "website": "https://github.com/",
+    "sources": "https://github.com/"
+  },
   "license": "MIT",
+  "icon": "assets/doesclient/icon.png",
   "environment": "client",
   "entrypoints": {
     "client": [
-      "com.liminar.StaqClient"
+      "com.doesclient.DoesClient"
     ]
   },
+  "mixins": [
+    "doesclient.mixins.json"
+  ],
   "depends": {
     "fabricloader": ">=0.16.0",
-    "minecraft": "~1.21.1",
+    "minecraft": "~1.21.8",
     "java": ">=21",
     "fabric-api": "*"
   }
