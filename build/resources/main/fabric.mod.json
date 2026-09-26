@@ -8,20 +8,15 @@
     "DoesClient Developer"
   ],
   "contact": {
-    "website": "https://github.com/",
     "sources": "https://github.com/"
   },
   "license": "MIT",
-  "icon": "assets/doesclient/icon.png",
   "environment": "client",
   "entrypoints": {
     "client": [
       "com.doesclient.DoesClient"
     ]
   },
-  "mixins": [
-    "doesclient.mixins.json"
-  ],
   "depends": {
     "fabricloader": ">=0.16.0",
     "minecraft": "~1.21.8",
